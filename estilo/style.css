@@ -1,0 +1,116 @@
+@charset "UTF-8"
+/*
+CLASSE COM FUNDO BRANCO= background
+
+CLASSE COM IMAGEM= backimage
+*/
+
+
+@font-face {
+    font-family: 'Cordel';
+    src: url(../fontes/CordelEncarnado-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Booklet';
+    src: url(../fontes/BookletCordel-Regular.ttf) format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: 'Cordel';
+}
+p{
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: 'Booklet';
+    
+    
+       
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    
+
+
+
+}
+header h1{
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    
+    
+    
+}
+header p{
+    padding-bottom: 40px;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a, footer, footer a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 4.4vw;
+    
+}
+section.background{
+    background-color: white;
+    color: black;
+    
+}
+section.backimage#img01{
+    background: rgba(0, 0, 0, 0.281) url('../imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    
+    
+    
+        
+}
+section.backimage#img02{
+    background: rgba(0, 0, 0, 0.281) url('../imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+section.backimage > p{
+    background-color: rgba(0, 0, 0, 0.26);
+    display: inline-block;
+    
+}
+footer{
+    background-color: rgb(107, 106, 106);
+}
+
+footer p{
+    color: black;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
